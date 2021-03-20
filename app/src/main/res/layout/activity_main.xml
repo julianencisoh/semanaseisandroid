@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#652727"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botoncolor"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#F017FF"
+        android:text="color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonizquierda"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="izquierda"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonderecha"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="derecha"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonabajo"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="412dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="abajo"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonarriba"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Arriba"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
